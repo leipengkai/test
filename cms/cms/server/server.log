@@ -1,0 +1,266 @@
+2020-08-29 11:14:49.880 89882 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 11:15:07.771 90036 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 11:34:28.216 93600 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 11:35:09.391 93689 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 11:35:16.610 93749 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 12:12:08.725 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/responders.py", line 27, in path_not_found
+    raise HTTPNotFound()
+HTTPNotFound
+2020-08-29 12:12:16.352 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/responders.py", line 37, in method_not_allowed
+    raise HTTPMethodNotAllowed(allowed_methods)
+HTTPMethodNotAllowed
+2020-08-29 12:12:20.182 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/responders.py", line 37, in method_not_allowed
+    raise HTTPMethodNotAllowed(allowed_methods)
+HTTPMethodNotAllowed
+2020-08-29 12:12:51.438 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 272, in on_post
+    self._validate_data(req)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 48, in _validate_data
+    raise falcon.HTTPBadRequest(title=_("JSON Required"), description=_("body malformat, json required"))
+HTTPBadRequest
+2020-08-29 14:13:13.682 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 272, in on_post
+    self._validate_data(req)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 48, in _validate_data
+    raise falcon.HTTPBadRequest(title=_("JSON Required"), description=_("body malformat, json required"))
+HTTPBadRequest
+2020-08-29 14:14:11.811 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 272, in on_post
+    self._validate_data(req)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 48, in _validate_data
+    raise falcon.HTTPBadRequest(title=_("JSON Required"), description=_("body malformat, json required"))
+HTTPBadRequest
+2020-08-29 14:16:25.232 93749 ERROR talos.server.base:67 [-] 
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 272, in on_post
+    self._validate_data(req)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/common/controller.py", line 48, in _validate_data
+    raise falcon.HTTPBadRequest(title=_("JSON Required"), description=_("body malformat, json required"))
+HTTPBadRequest
+2020-08-29 14:23:03.536 13100 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:24:22.094 13263 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:26:01.052 13456 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:26:43.445 13537 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:28:08.539 13696 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:30:16.579 13945 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:35:27.873 14532 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:37:59.363 14813 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:39:02.894 14932 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:39:53.680 15027 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:41:04.042 15159 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 14:41:04.553 15159 WARNING py.warnings:68 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/core/config.py:68: SyntaxWarning: [config] access CONF.task_routes.["cms.workers.*"] instead of CONF.task_routes.cms.workers.*
+  warnings.warn('[config] access %s instead of %s' % (_valid_expr(allkeys), _simple_expr(allkeys)), SyntaxWarning)
+
+2020-08-29 15:49:37.108 15580 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 15:49:37.658 15580 WARNING py.warnings:68 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/core/config.py:68: SyntaxWarning: [config] access CONF.task_routes.["cms.workers.*"] instead of CONF.task_routes.cms.workers.*
+  warnings.warn('[config] access %s instead of %s' % (_valid_expr(allkeys), _simple_expr(allkeys)), SyntaxWarning)
+
+2020-08-29 15:52:26.671 15883 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 15:52:27.180 15883 WARNING py.warnings:68 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos_api-1.3.2-py2.7.egg/talos/core/config.py:68: SyntaxWarning: [config] access CONF.task_routes.["cms.workers.*"] instead of CONF.task_routes.cms.workers.*
+  warnings.warn('[config] access %s instead of %s' % (_valid_expr(allkeys), _simple_expr(allkeys)), SyntaxWarning)
+
+2020-08-29 15:53:42.576 16027 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 15:55:00.732 16225 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 17:20:40.308 30844 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 17:23:43.059 31194 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 17:23:53.464 31194 ERROR talos.server.base:67 [-] relationship 'region' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print User().list()
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 877, in list
+    query = self._get_query(session, filters=filters, orders=orders)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 659, in _get_query
+    query = session.query(*tables)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/session.py", line 1584, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 197, in __init__
+    self._set_entities(entities)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 225, in _set_entities
+    self._set_entity_selectables(self._entities)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 256, in _set_entity_selectables
+    ent.setup_entity(*d[entity])
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 4297, in setup_entity
+    self._with_polymorphic = ext_info.with_polymorphic_mappers
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/util/langhelpers.py", line 883, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/mapper.py", line 2157, in _with_polymorphic_mappers
+    configure_mappers()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/mapper.py", line 3301, in configure_mappers
+    mapper._post_configure_properties()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/mapper.py", line 1966, in _post_configure_properties
+    prop.init()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/interfaces.py", line 197, in init
+    self.do_init()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/relationships.py", line 2076, in do_init
+    self._process_dependent_arguments()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/relationships.py", line 2138, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/util/langhelpers.py", line 883, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/relationships.py", line 2061, in entity
+    % (self.key, type(argument))
+ArgumentError: relationship 'region' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+2020-08-29 17:25:33.480 31397 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-29 17:25:44.170 31397 ERROR talos.server.base:67 [-] relationship 'region' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print UserPhoneNum().list()
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 877, in list
+    query = self._get_query(session, filters=filters, orders=orders)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 659, in _get_query
+    query = session.query(*tables)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/session.py", line 1584, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 197, in __init__
+    self._set_entities(entities)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 225, in _set_entities
+    self._set_entity_selectables(self._entities)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 256, in _set_entity_selectables
+    ent.setup_entity(*d[entity])
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/query.py", line 4297, in setup_entity
+    self._with_polymorphic = ext_info.with_polymorphic_mappers
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/util/langhelpers.py", line 883, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/mapper.py", line 2157, in _with_polymorphic_mappers
+    configure_mappers()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/mapper.py", line 3301, in configure_mappers
+    mapper._post_configure_properties()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/mapper.py", line 1966, in _post_configure_properties
+    prop.init()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/interfaces.py", line 197, in init
+    self.do_init()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/relationships.py", line 2076, in do_init
+    self._process_dependent_arguments()
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/relationships.py", line 2138, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/util/langhelpers.py", line 883, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "build/bdist.macosx-10.7-x86_64/egg/sqlalchemy/orm/relationships.py", line 2061, in entity
+    % (self.key, type(argument))
+ArgumentError: relationship 'region' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+2020-08-30 10:09:32.367 56467 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 10:10:00.207 56467 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship Address.user to refer to viewonly relationship User.addresses should include sync_backref=False set on the Address.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 10:10:00.209 56467 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship PhoneNum.user to refer to viewonly relationship User.phonenums should include sync_backref=False set on the PhoneNum.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 10:10:00.218 56467 ERROR talos.server.base:67 [-] 'PhoneNum' object has no attribute 'list_relationship_columns'
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print UserPhoneNum().list()
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 877, in list
+    query = self._get_query(session, filters=filters, orders=orders)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 675, in _get_query
+    query = self._dynamic_relationship_load(query, orm_meta=orm_meta, level=level_of_relationship)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 555, in _dynamic_relationship_load
+    relationship_cols = orm_meta().list_relationship_columns()
+AttributeError: 'PhoneNum' object has no attribute 'list_relationship_columns'
+2020-08-30 16:29:38.281 86982 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:29:46.519 86982 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship Address.user to refer to viewonly relationship User.addresses should include sync_backref=False set on the Address.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:29:46.522 86982 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship PhoneNum.user to refer to viewonly relationship User.phonenums should include sync_backref=False set on the PhoneNum.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:29:46.528 86982 ERROR talos.server.base:67 [-] 'User' object has no attribute 'list_relationship_columns'
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print User().list()
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 877, in list
+    query = self._get_query(session, filters=filters, orders=orders)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 675, in _get_query
+    query = self._dynamic_relationship_load(query, orm_meta=orm_meta, level=level_of_relationship)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 555, in _dynamic_relationship_load
+    relationship_cols = orm_meta().list_relationship_columns()
+AttributeError: 'User' object has no attribute 'list_relationship_columns'
+2020-08-30 16:30:12.538 87038 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:32:57.697 87359 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:33:02.629 87359 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship Address.user to refer to viewonly relationship User.addresses should include sync_backref=False set on the Address.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:33:02.631 87359 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship PhoneNum.user to refer to viewonly relationship User.phonenums should include sync_backref=False set on the PhoneNum.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:33:02.633 87359 ERROR talos.server.base:67 [-] 'User' object has no attribute 'list_relationship_columns'
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print User().get(1)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 899, in get
+    query = self._get_query(session, level_of_relationship=3)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 675, in _get_query
+    query = self._dynamic_relationship_load(query, orm_meta=orm_meta, level=level_of_relationship)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 555, in _dynamic_relationship_load
+    relationship_cols = orm_meta().list_relationship_columns()
+AttributeError: 'User' object has no attribute 'list_relationship_columns'
+2020-08-30 16:34:01.306 87474 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:34:48.590 87556 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:37:01.898 87763 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:39:04.362 87957 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:40:57.394 88141 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:41:06.931 88141 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship Address.user to refer to viewonly relationship User.addresses should include sync_backref=False set on the Address.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:41:06.934 88141 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship PhoneNum.user to refer to viewonly relationship User.phonenums should include sync_backref=False set on the PhoneNum.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:41:06.953 88141 ERROR talos.server.base:67 [-] 'User' object has no attribute 'list_relationship_columns'
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print User().get(1)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 899, in get
+    query = self._get_query(session, level_of_relationship=3)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 675, in _get_query
+    query = self._dynamic_relationship_load(query, orm_meta=orm_meta, level=level_of_relationship)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 555, in _dynamic_relationship_load
+    relationship_cols = orm_meta().list_relationship_columns()
+AttributeError: 'User' object has no attribute 'list_relationship_columns'
+2020-08-30 16:42:05.484 88141 ERROR talos.server.base:67 [-] 'User' object has no attribute 'list_relationship_columns'
+Traceback (most recent call last):
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/falcon/api.py", line 269, in __call__
+    responder(req, resp, **params)
+  File "/Users/leipengkai/Downloads/github/work/new/test/cms/cms/apps/user/controller.py", line 16, in on_get
+    print User().get(1)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 899, in get
+    query = self._get_query(session, level_of_relationship=3)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 675, in _get_query
+    query = self._dynamic_relationship_load(query, orm_meta=orm_meta, level=level_of_relationship)
+  File "/Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/talos/db/crud.py", line 555, in _dynamic_relationship_load
+    relationship_cols = orm_meta().list_relationship_columns()
+AttributeError: 'User' object has no attribute 'list_relationship_columns'
+2020-08-30 16:43:44.518 88419 WARNING talos.core.i18n:56 [-] language(en) files not found, no translation will be used
+2020-08-30 16:43:50.470 88419 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship Address.user to refer to viewonly relationship User.addresses should include sync_backref=False set on the Address.user relationship.  (this warning may be suppressed after 10 occurrences)
+
+2020-08-30 16:43:50.473 88419 WARNING py.warnings:1497 [-] /Users/leipengkai/Downloads/anaconda3/envs/python27/lib/python2.7/site-packages/SQLAlchemy-1.3.19-py2.7-macosx-10.7-x86_64.egg/sqlalchemy/orm/relationships.py:1997: SAWarning: Setting backref / back_populates on relationship PhoneNum.user to refer to viewonly relationship User.phonenums should include sync_backref=False set on the PhoneNum.user relationship.  (this warning may be suppressed after 10 occurrences)
+
